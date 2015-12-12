@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "photo": "Cover",
     "label": "Tragic Fires ",
     "date": "8/20/2015",
     "caption": "Flames blanketed the hillsides just outside the town of Twisp in the early-morning hours. Fire crews had worked to try to tame wildfires around the small mountain town throughout the night, just after three of their colleagues — Richard Wheeler, Andrew Zajac and Tom Zbyszewski — lost their lives in the line of duty. A heartfelt thanks to all the crews who defended our communities in such difficult and dangerous conditions this summer.",
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "photo": "1A",
     "label": "Protest and Politics ",
     "date": "8/8/2015",
     "caption": "I stood to the front of the stage as 5,000 people jammed Westlake Park to hear presidential candidate Bernie Sanders speak. It wasn’t clear what was happening when Black Lives Matter activists Mara Jacqueline Willaford and Marissa Johnson took the stage. Sen. Sanders spoke briefly, then the protesters took the microphone. They demanded to speak, were allowed to do so, then would not leave. Things were spiraling out of control. Some in the audience booed and shouted. Where was security? What could they do, in any case? Sen. Sanders stood quietly to the right during the tense standoff.",
@@ -15,6 +17,7 @@
   },
   {
     "id": 3,
+    "photo": "1B",
     "label": "What If? ",
     "date": "2/1/2015",
     "caption": "The final moments of Super Bowl XLIX were complete chaos. It appeared Russell Wilson was marching the Seahawks to victory in Glendale, Ariz. I was just outside the back of the end zone, but after being pushed out by security guards, I tried to position myself close to Seattle coach Pete Carroll for what turned out to be the final few plays. The rest was a blur and, in the confusion, I searched for storytelling scenes. Marshawn Lynch’s reaction to the final interception echoed around the country, as people wondered why the Seahawks didn’t just give him the ball.",
@@ -22,6 +25,7 @@
   },
   {
     "id": 4,
+    "photo": "2A",
     "label": "Lucky Survivor ",
     "date": "8/15/2015",
     "caption": "Todd Quinn grabbed one of his goats that survived a fire that swept through his ranch near Chelan the night before. Wildfires this year were the largest in state history. I spent the day with Quinn, who was concerned he might have to put down one of his horses after it sustained burns. Fortunately, Quinn’s horse and his house survived.",
@@ -29,6 +33,7 @@
   },
   {
     "id": 5,
+    "photo": "2B",
     "label": "Bridge Tragedy ",
     "date": "Sept. 24",
     "caption": "I was at Gas Works Park looking for a weather photo when I got a call from the office, telling me there had been a bus crash on the Aurora Bridge. I drove near the north end of the bridge, parked and ran to the crash area. It was surprisingly calm. There was no crying or screaming, just several dozen medics and Seattle firefighters going about their business. The injured victims were placed on the yellow mat. Some seemed only semiconscious; others were plainly in shock. I shot as fast as I could until a Seattle Police officer ordered me off the bridge. Later, I shot a video of Ride the Ducks passenger Tim Gesner, who described the accident from his bed in the emergency room at Virginia Mason Hospital.",
@@ -36,6 +41,7 @@
   },
   {
     "id": 6,
+    "photo": "2C",
     "label": "Ice Caves Collapse ",
     "date": "7/7/2015",
     "caption": "I headed up to the Big Four Ice Caves in Snohomish County after the roof of the caves collapsed, killing one person one of the injured later died, right? should we say killed 2? and injuring several others. I made my way up a mountain across from the ice caves. Gaping cracks and holes were visible in the roof of the caves, along with icy debris left by the previous day’s partial collapse. Search-and-rescue crews can be seen approaching the mouth of the cave.",
@@ -43,6 +49,7 @@
   },
   {
     "id": 7,
+    "photo": "3A",
     "label": "Graduation Day ",
     "date": "6/8/2015",
     "caption": "At Marysville Arts & Technology High School’s graduation to photograph Chance Mair, I was immediately swept up in Chance’s friendships. Chance, valedictorian of his class, has Asperger’s syndrome and began his schooling in special-education classes. In addition to being a great student, he created a gigantic circle of friends on and off the school grounds. He shook my hand, his mother a few feet away, and we cruised the hall looking for a place to shoot a portrait. I’ve always told photographers to anticipate luck when stalking an image. That means being prepared, and when I saw kids running toward Chance, I had time only to raise the viewfinder to my eye — and bam! — the photo was there and then it was gone. What a lovely moment to share with him.",
@@ -50,6 +57,7 @@
   },
   {
     "id": 8,
+    "photo": "3B",
     "label": "Fun at the Fair ",
     "date": "Sept. 1",
     "caption": "Darleen Sean, 19, of Bothell, center, flies through the air on a ride at the Evergreen State Fair on a rainy night. The annual fair in Monroe runs from late August through Labor Day. “I like going at night because of the lights,” Sean said. Fairs can be magic places for photographers because of the light, movement, music, children and adoring couples. Add a little rain, and everything seems to shimmer and glow.",
@@ -57,6 +65,7 @@
   },
   {
     "id": 9,
+    "photo": "3C",
     "label": "Recovering Bertha ",
     "date": "3/30/2015",
     "caption": "After being trapped underground, broken, Bertha’s cuttinghead assembly is brought to the surface for repairs, temporarily stopping some workers in their tracks, looking wide-eyed at a perfect circle of blue motors finally exposed to daylight. Visually, I’m struck by the enormous scale of the machine compared to those tasked with the almost Sisyphean assignment of fixing it, with no end to the project in sight.",
@@ -64,6 +73,7 @@
   },
   {
     "id": 10,
+    "photo": "4A",
     "label": "Raising the French Flag ",
     "date": "11/14/2015",
     "caption": "Immediately after the terrorist attacks in Paris, the Space Needle commissioned the creation of a 25-by-35-foot French flag to fly in a show of support and solidarity. It was delivered just before dusk. In a driving rain with 20 mph winds, the flag was raised to the top of the flagpole, then lowered to half-staff. Writer Coral Garnick held my umbrella (while shooting video on her cellphone) to protect my gear during the few moments it took. The hands, lower left, and engineer Nicholas Robinson’s silhouette complete the image. The photo was transmitted back to the paper from the Space Needle lobby.",
@@ -71,6 +81,7 @@
   },
   {
     "id": 11,
+    "photo": "4B",
     "label": "A Prayer for Nepal ",
     "date": "4/26/2015",
     "caption": "Deepa Shrestha was one of hundreds who attended a community gathering for victims of a 7.8 magnitude earthquake that killed more than 9,000 people in Nepal. The event, at the Hindu Temple & Cultural Center in Bothell, was organized by the Nepal Seattle Society. It’s always a good idea to arrive early, particularly when covering emotional events after any tragedy. I arrived an hour beforehand to introduce myself to organizers and check in with the head priest, which helped establish trust and understanding before the actual prayer service. I felt comfortable moving freely during the service because I knew they were comfortable with me. Trust is an asset.",
@@ -78,6 +89,7 @@
   },
   {
     "id": 12,
+    "photo": "4C",
     "label": "Open Wide ",
     "date": "7/2/2015",
     "caption": "As photojournalists, we end up seeing a lot of sad, tough times in people’s lives. It’s refreshing to just shoot something beautiful. A friend told me that there were baby hummingbirds high in a tree in a nest in her yard. I set up a camera on a tripod, sat on the ground several yards away and just waited for the mama to come back. Whenever she flew to the nest, I shot, not knowing what I would get. After a few hours I left and checked my images. This is one of my favorites. A week or two later, the babies were gone.",
@@ -85,6 +97,7 @@
   },
   {
     "id": 13,
+    "photo": "5A",
     "label": "Top Dog ",
     "date": "3/5/2015",
     "caption": "When former Seattle Times pet columnist Ranny Green called to say a pig was enrolled in a dog obedience class in Kent, I had to check it out. Though only six months old, Amy the pig quickly learned to retrieve, run an obstacle course and be house-trained. She was rewarded constantly with banana chips and string cheese. The punch line here is provided when the dog second from right looks over, perhaps wondering, “What is this new breed?”",
@@ -92,6 +105,7 @@
   },
   {
     "id": 14,
+    "photo": "5B",
     "label": "Oh, No-No ",
     "date": "8/12/2015",
     "caption": "I was in the office filing an assignment I had shot earlier when an editor told me Mariners pitcher Hisashi Iwakuma had a no-hitter going against the Orioles at Safeco Field and asked if I could get there. With only two innings left in the game, I hurriedly packed my stuff. When I arrived, with no parking pass, I told the lot attendant I needed to get inside. To my surprise, he lifted the gate and told me to find a spot. I ran in and got into position directly behind home plate. I had no time to consider another position, so it was a make-or-break decision to shoot from there. There were two outs to go. And he did it. Unbelievable feat for Iwakuma and, looking back, there were a ton of green lights I had to hit to get into position before it was too late.",
@@ -99,6 +113,7 @@
   },
   {
     "id": 15,
+    "photo": "5C",
     "label": "Winter Sunset ",
     "date": "2/17/2015",
     "caption": "When I’m not working, I no longer enjoy carrying a camera; it just feels like it gets in the way. My mother complains that it’s like having a doctor in the family. My wife and I were walking the dogs on a cool and clear night in Edmonds when this scene presented itself. As luck would have it, I had my new iPhone 6 Plus. I knew the new iPhone camera was an improvement, but I was surprised how vividly and accurately it captured subtle color. Better yet, after finding an acceptable frame, I sent it directly to the office for consideration in the next day’s paper. Technology can be both a blessing and a curse, I suppose. Now I have no excuse when Mom asks me to take a picture.",
@@ -106,6 +121,7 @@
   },
   {
     "id": 16,
+    "photo": "6A",
     "label": "Disappearing Glacier ",
     "date": "8/7/2015",
     "caption": "Research assistants navigated around a supraglacial stream on Sholes Glacier, taking measurements. Their data were later added to research recorded by glaciologist Mauri Pelto. Sholes Glacier, on the northeast slope of Mount Baker, has receded 116 meters in the 32 years he has studied it, Pelto said. This assignment was memorable because I not only got to trek on a glacier for the first time, but I also felt I was telling an important local story that is part of a global concern.",
@@ -113,6 +129,7 @@
   },
   {
     "id": 17,
+    "photo": "6B",
     "label": "The Eyes Have It ",
     "date": "7/24/2015",
     "caption": "Bob Smithing examines Sierra Christie, 6, at FamilyCare of Kent. This story was about the Affordable Care Act and the surge in insured Washington residents increasing the demand for primary-care providers. Smithing, a longtime nurse practitioner, was very kind to allow me to be a fly on the wall in the exam room to photograph him with his patients.",
@@ -120,6 +137,7 @@
   },
   {
     "id": 18,
+    "photo": "6C",
     "label": "Shell No! ",
     "date": "5/16/2015",
     "caption": "Early one morning, kayakers gathered at Alki Beach to protest Shell’s huge oil rig that was tied up at Terminal 5 in Seattle. The rig was scheduled to head to Alaska to drill for oil. Many people were adamantly opposed to the idea. The protesters were told to stay well back from the rig, but they peacefully paddled their way to its base. My colleague Mark Harrison carefully maneuvered his boat through the kayakers, and we got the shot.",
@@ -127,6 +145,7 @@
   },
   {
     "id": 19,
+    "photo": "6D",
     "label": "Heartbroken",
     "date": "8/25/2015",
     "caption": "Lisa, a homeless woman who lived near the Magnolia Bridge, mourned the death of her close friend Stacey Davis, who was bludgeoned to death in her tent under the bridge. Hours later, police shot the suspected assailant in the leg, and later charged him with second-degree murder, and first-degree assault for injuring Davis’ husband. Reporter Christine Clarridge and I found Lisa in her tent, and she walked us over to the bridge to show us that the attacker’s neighboring campsite had been scrubbed clean of evidence, but the Davises’ site was full of their belongings, some soaked in blood. “I love you, girl,” Lisa said while walking by Stacey’s old tent. “She had my back.”",
