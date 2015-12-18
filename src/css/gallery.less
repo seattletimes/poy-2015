@@ -1,0 +1,76 @@
+@import "flexbox";
+
+.gallery {
+  position: relative;
+  .display-flex();
+  .align-items(center);
+  height: 800px;
+
+  @media @mobile {
+    display: block;
+    height: auto;
+  }
+
+  .button {
+    @size: 40px;
+    .flex(0 0 @size);
+    top: 10%;
+    background: rgba(255, 255, 255, .8);
+    color: black;
+    font-size: @size;
+    line-height: @size;
+    text-align: center;
+    cursor: pointer;
+
+    @media @mobile {
+      display: none;
+    }
+  }
+}
+
+.slide {
+  .flex(0 1 100%);
+  min-width: 0;
+
+  .js-active & {
+    display: none;
+
+    &.show {
+      .display-flex();
+    }
+  }
+
+  @media @mobile {
+    display: block;
+  }
+
+  .image-container {
+    .flex(3 3 100px);
+    overflow: hidden;
+  }
+
+  .caption-container {
+    .flex(1 1 100px);
+    .display-flex();
+    .flex-direction(column);
+    .justify-content(center);
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  &.landscape {
+    .flex-direction(column);
+    .image-container {
+      min-height: 0;
+      .flex(3 3 100px);
+    }
+    .caption-container {
+      .flex(1 1 100px);
+
+      .text {
+        max-width: 600px;
+        margin: auto;
+      }
+    }
+  }
+}

@@ -9,9 +9,54 @@
   </head>
   <body>
 
-    <responsive-child>
-      <!-- content goes here -->
-    </responsive-child>
+    <%= t.include("partials/_nav.html") %>
+
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+    <section class="text-content">
+      <h1>Photos of the Year 2015</h1>
+      <p>
+        A selection of the best photos taken in 2015 by Seattle Times photographers.
+    </section>
+
+    <section class="gallery">
+      <a class="previous button">&laquo;</a>
+
+      <% json.POY2015_gallery.forEach(function(row) { %>
+      <div class="slide <%= row.aspect %>">
+        <div class="image-container">
+          <img class="photo" src="./assets/POY_<%= row.photo %>.jpg">
+        </div>
+        <div class="caption-container">
+          <div class="text">
+            <cite class="photo-credit">
+              <span class="title"><%= row.label %></span>
+              |
+              <span class="date"><%= row.date %></span>
+              by 
+              <span class="photographer"><%= row.credit %></span>
+            </cite>
+            <p class="caption">Photographer's notes: <%= row.caption %></p>
+          </div>
+        </div>
+      </div>
+      <% }) %>
+      
+      <a class="next button">&raquo;</a>
+    </section>
+
+    <section class="text-content">
+      <article class="intro">
+        <h2>Introduction</h2>
+        <h3>By Tyrone Beason<br>
+          Pacific NW magazine staff writer
+        </h3>
+        <%= markdown.intro %>
+        <div class="credit">
+          Tyrone Beason is a Pacific NW magazine staff writer. He can be reached at tbeason@seattletimes.com.
+        </div>
+      </article>
+    </section>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>

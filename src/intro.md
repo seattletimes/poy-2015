@@ -1,6 +1,3 @@
-By Tyrone Beason
-Pacific NW magazine staff writer
-
 NEWS EVENTS HAVE a way of showing what communities are made of, but it’s also true that communities can act as a prism through which to better understand and relate to the news.
 
 Images by Seattle Times photographers that were selected for the 2015 Pictures of the Year issue, in a year filled with big and often disheartening news events, offer plenty of evidence for either argument.
@@ -23,4 +20,3 @@ Temperatures were in the low 60s, 10 degrees above normal.
 
 The balmy weather that day was cold comfort for some, but it was beautiful all the same.
 
-Tyrone Beason is a Pacific NW magazine staff writer. He can be reached at tbeason@seattletimes.com.
