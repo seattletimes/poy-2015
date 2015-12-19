@@ -7,7 +7,9 @@ var qsa = s => Array.prototype.slice.call(document.querySelectorAll(s));
 var gallery = document.querySelector(".gallery");
 gallery.classList.add("js-active");
 //start the first slide
-document.querySelector(".slide").classList.add("show");
+var slideNumber = window.location.hash.length ? window.location.hash.replace("#", "") * 1: 0;
+
+qsa(".gallery .slide")[slideNumber].classList.add("show");
 
 var changeSlide = function() {
   var isNext = this.classList.contains("next");

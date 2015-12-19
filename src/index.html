@@ -24,20 +24,25 @@
 
       <% json.POY2015_gallery.forEach(function(row) { %>
       <div class="slide <%= row.aspect %>">
-        <div class="image-container">
+        <cite class="photo-credit mobile-only">
+          <span class="title"><%= row.label %></span>
+          |
+          <span class="date"><%= row.date %></span>
+          by 
+          <span class="photographer"><%= row.credit %></span>
+        </cite>
+        <div class="photo-container">
           <img class="photo" src="./assets/POY_<%= row.photo %>.jpg">
         </div>
         <div class="caption-container">
-          <div class="text">
-            <cite class="photo-credit">
-              <span class="title"><%= row.label %></span>
-              |
-              <span class="date"><%= row.date %></span>
-              by 
-              <span class="photographer"><%= row.credit %></span>
-            </cite>
-            <p class="caption">Photographer's notes: <%= row.caption %></p>
-          </div>
+          <cite class="photo-credit desktop-only">
+            <span class="title"><%= row.label %></span>
+            |
+            <span class="date"><%= row.date %></span>
+            by 
+            <span class="photographer"><%= row.credit %></span>
+          </cite>
+          <p class="caption"><b>Photographer's note:</b> <%= row.caption %></p>
         </div>
       </div>
       <% }) %>
@@ -47,7 +52,7 @@
 
     <section class="text-content">
       <article class="intro">
-        <h2>Introduction</h2>
+        <h2>About these photos</h2>
         <h3>By Tyrone Beason<br>
           Pacific NW magazine staff writer
         </h3>
