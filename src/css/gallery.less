@@ -3,7 +3,7 @@
 .gallery {
   position: relative;
   display: block;
-  padding: 20px;
+  font-family: @df-sans;
 
   @media @desktop {
     padding: 20px 0;
@@ -81,7 +81,6 @@
 
   .caption-container {
     font-size: 16px;
-    font-family: @df-sans;
     // .flex(0 1 30%);
     max-width: 300px;
     .align-self(center);
@@ -90,8 +89,12 @@
     .justify-content(center);
 
     @media @tablet {
-      padding: 0;
+      padding: 0 20px;
       max-width: 100%;
+    }
+
+    p {
+      margin-bottom: 0;
     }
 
   }

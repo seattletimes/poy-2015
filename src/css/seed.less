@@ -3,8 +3,8 @@
 
 body {
   background: #222;
-  background-image: radial-gradient(#222, #111);
-  color: white;
+  background-image: radial-gradient(#333, #282828);
+  color: @df-off-white;
 }
 
 h1, h2, h3, {
@@ -14,4 +14,8 @@ h1, h2, h3, {
 section.text-content {
   max-width: 800px;
   margin: auto;
+
+  @media @tablet {
+    padding: 0 20px;
+  }
 }
