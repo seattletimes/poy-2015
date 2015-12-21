@@ -20,34 +20,39 @@
     </section>
 
     <section class="gallery">
-      <a class="previous button">&laquo;</a>
+      <div class="gallery-inner">
+        <div class="slide-container">
+          <a class="previous button">&laquo;</a>
 
-      <% json.POY2015_gallery.forEach(function(row) { %>
-      <div class="slide <%= row.aspect %>">
-        <cite class="photo-credit mobile-only">
-          <span class="title"><%= row.label %></span>
-          |
-          <span class="date"><%= row.date %></span>
-          by 
-          <span class="photographer"><%= row.credit %></span>
-        </cite>
-        <div class="photo-container">
-          <img class="photo" src="./assets/POY_<%= row.photo %>.jpg">
-        </div>
-        <div class="caption-container">
-          <cite class="photo-credit desktop-only">
-            <span class="title"><%= row.label %></span>
-            |
-            <span class="date"><%= row.date %></span>
-            by 
-            <span class="photographer"><%= row.credit %></span>
-          </cite>
-          <p class="caption"><b>Photographer's note:</b> <%= row.caption %></p>
+          <% json.POY2015_gallery.forEach(function(row) { %>
+          <div class="slide <%= row.aspect %>">
+            <cite class="photo-credit mobile-only">
+              <span class="title"><%= row.label %></span>
+              |
+              <span class="date"><%= row.date %></span>
+              by 
+              <span class="photographer"><%= row.credit %></span>
+            </cite>
+            <div class="photo-container">
+              <img class="photo" src="./assets/POY_<%= row.photo %>.jpg">
+            </div>
+            <div class="caption-container">
+              <cite class="photo-credit desktop-only">
+                <span class="title"><%= row.label %></span>
+                |
+                <span class="date"><%= row.date %></span>
+                by 
+                <span class="photographer"><%= row.credit %></span>
+              </cite>
+              <p class="caption"><b>Photographer's note:</b> <%= row.caption %></p>
+            </div>
+          </div>
+          <% }) %>
+          
+          <a class="next button">&raquo;</a>
         </div>
       </div>
-      <% }) %>
       
-      <a class="next button">&raquo;</a>
     </section>
 
     <section class="text-content">

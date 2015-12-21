@@ -2,18 +2,37 @@
 
 .gallery {
   position: relative;
+}
+
+.gallery-inner {
+  position: relative;
   display: block;
   font-family: @df-sans;
 
+  .js-active & {
+    height: 0;
+    padding-bottom: percentage(9 / 16);
+
+    @media (max-aspect-ratio: 4 / 3) {
+      padding-bottom: percentage(3 / 4);
+    }
+  }
+}
+
+.slide-container {
   @media @desktop {
     padding: 20px 0;
     
-    &.js-active {
+    .js-active & {
       .display-flex();
       .align-items(stretch);
       .justify-content(center);
-      height: 800px;
       background: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
   }
 }
@@ -52,6 +71,7 @@
       .display-flex();
 
       @media @tablet {
+        position: static;
         display: block;
       }
     }
