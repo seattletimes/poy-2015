@@ -50,12 +50,30 @@
   .flex(0 0 @size);
   .align-self(center);
   top: 10%;
-  background: rgba(255, 255, 255, .8);
+  background: rgba(255, 255, 255, .2);
   color: black;
-  font-size: @size;
+  font-size: 30px;
   line-height: @size;
   text-align: center;
   cursor: pointer;
+  border: 1px solid @df-dark-gray;
+  color: @df-middle-gray;
+  transition: all .3s linear;
+
+  &:hover {
+    background: rgba(255, 255, 255, .3);
+    color: white;
+  }
+
+  &.previous {
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+  }
+
+  &.next {
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+  }
 
   @media @tablet {
     display: none;
