@@ -4,6 +4,15 @@ Images by Seattle Times photographers that were selected for the 2015 Pictures o
 
 Record-setting dry weather in Washington state, for example, renewed fears about the effects of global climate change, but you don’t have to be a card-carrying environmentalist to be struck by Erika Schultz’s haunting Aug. 20 image of a threatened home set against the hellish orange glow of a soaring wildfire outside the town of Twisp.
 
+<div class="factbox">
+<h3 class="accent">Please Join Us</h3>
+<p>Seattle Times photojournalists Erika Schultz and Greg Gilbert will lead a conversation about our Pictures of the Year.</p>
+<p><strong>7 p.m. Wednesday, Jan. 27</strong> (doors open at 6:30) <br>
+<strong>Seattle Public Library<br>
+1000 Fourth Ave., Seattle</strong></p>
+<p>More information, ticket details at LINK</p>
+</div>
+
 Activists in kayaks tried to make a similar connection between global environmental issues and local concerns in May, when they swarmed a massive Shell oil-drilling rig, the Polar Pioneer, which was moored at the Port of Seattle before heading to Arctic waters off Alaska. Shell has wanted to use Puget Sound as a launch base for exploratory ventures, but the idea has drawn loud opposition from locals worried about the risk of oil spills and the long-term effects of new drilling on the climate. Ellen M. Banner’s May 16 image of protesters surrounding the vessel in Elliott Bay illustrates how everyday people can give voice to issues that can seem well beyond any individual’s influence.
 
 Sometimes the ripple effects of major news stories manifest in quieter moments, such as when hundreds gathered at a Hindu cultural center in Bothell on April 26 to say prayers for victims of a 7.8 earthquake that devastated parts of Nepal and killed more than 8,000 people. Lindsey Wasson’s picture from the event of a woman praying — her eyes closed, her hands pressed together — bridges the emotional distance between a tragedy halfway around the world and the grief felt here at home.
