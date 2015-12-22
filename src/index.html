@@ -69,6 +69,8 @@
       </article>
     </section>
 
+    <%= t.include("partials/_navBottom.html") %>
+
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>

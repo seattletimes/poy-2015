@@ -1,35 +1,33 @@
+@accent: rgb(177, 17, 17);
+
 @import "seattletimes";
 @import "gallery";
 
-body {
-  background: #222;
-  background-image: radial-gradient(#333, #282828);
-  color: @df-off-white;
-}
-
-h1, h2, h3, {
-  color: white;
+.chatter {
+  text-align: center;
 }
 
 .header {
   text-align: center;
   h1 {
     font-size: 2.8em;
+    margin: 0;
   }
 
   h2 {
     font-size: 1.8em;
-
+    margin: 0;
   }
 }
 
 .accent {
-  color: @st-dark-red;
+  color: @accent;
 }
 
 section.text-content {
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
+  padding-bottom: 20px;
 
   @media @tablet {
     padding: 0 20px;
@@ -43,10 +41,11 @@ section.text-content {
   .factbox {
     max-width: 300px;
     float: right;
-    margin: 15px 0 15px 15px;
-    padding: 10px;
+    margin: 15px 0 15px 30px;
+    padding: 16px;
     font-family: @df-sans;
     font-size: 16px;
-    border: 1px solid @df-light-grey;
+    // border: 1px solid @df-light-gray;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, .15);
   }
 }
