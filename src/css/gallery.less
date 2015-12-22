@@ -3,6 +3,10 @@
 .gallery {
   position: relative;
   color: white;
+
+  @media @mobile {
+    color: black;
+  }
 }
 
 .gallery-inner {
@@ -10,12 +14,15 @@
   display: block;
   font-family: @df-sans;
 
-  .js-active & {
-    height: 0;
-    padding-bottom: percentage(9 / 16);
+  @media @desktop {
 
-    @media (max-aspect-ratio: 4 / 3) {
-      padding-bottom: percentage(3 / 4);
+    .js-active & {
+      height: 0;
+      padding-bottom: percentage(9 / 16);
+
+      @media (max-aspect-ratio: 4 / 3) {
+        padding-bottom: percentage(3 / 4);
+      }
     }
   }
 }
@@ -110,7 +117,7 @@
     .justify-content(center);
 
     @media @tablet {
-      padding: 0 20px;
+      padding: 0px 20px 40px;
       max-width: 100%;
     }
 
@@ -149,6 +156,9 @@ cite.photo-credit {
 
   &.mobile-only {
     display: none;
+    font-size: 18px;
+    color: black;
+    padding: 0 10px;
 
     @media @tablet {
       display: block;
