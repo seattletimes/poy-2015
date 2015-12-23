@@ -27,7 +27,7 @@ And then there are those human moments that tap into the zeitgeist, crystallizin
 
 Alan Berner’s evocative Aug. 8 image of “Black Lives Matter” demonstrators commandeering a downtown Seattle campaign appearance by Democratic presidential candidate Sen. Bernie Sanders, who stands silently to the side with his head bowed, illustrates the sometimes-uncomfortable nature of protest even in a city known for gutsy acts of civil disobedience.
 
-When a visibly baffled Marshawn Lynch scratched his head after the Seahawks lost this year’s Super Bowl on Feb. 1 following a controversial final play, the searching dismay in his squinting expression, captured in a priceless image by Bettina Hansen, spoke for every fan. So did John Lok’s Aug. 12 image of Mariners pitcher Hisashi Iwakuma celebrating with teammates after pitching a no-hitter against the Baltimore Orioles at Safeco Field, in a moment of unbridled joy we all needed.
+When a visibly baffled Marshawn Lynch scratched his head after the Seahawks lost the Super Bowl on Feb. 1 following a controversial final play, the searching dismay in his squinting expression, captured in a priceless image by Bettina Hansen, spoke for every fan. So did John Lok’s Aug. 12 image of Mariners pitcher Hisashi Iwakuma celebrating with teammates after pitching a no-hitter against the Baltimore Orioles at Safeco Field, in a moment of unbridled joy we all needed.
 
 Finally, there are life-affirming images that pull us away from the world’s onslaught and remind us that life goes on, such as Dean Rutz’s bittersweet Feb. 17 picture of people enjoying what turned out to be a worrying number of fantastic sunsets in this notoriously gray region.
 
