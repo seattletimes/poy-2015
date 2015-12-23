@@ -7,9 +7,9 @@ var qsa = s => Array.prototype.slice.call(document.querySelectorAll(s));
 var gallery = document.querySelector(".gallery");
 gallery.classList.add("js-active");
 //start the first slide
-var slideNumber = window.location.hash.length ? window.location.hash.replace("#", "") * 1: 0;
+// var slideNumber = window.location.hash.length ? window.location.hash.replace("#", "") * 1: 0;
 
-qsa(".gallery .slide")[slideNumber].classList.add("show");
+document.querySelector(".gallery .slide").classList.add("show");
 
 var changeSlide = function() {
   var isNext = this.classList.contains("next");
@@ -23,3 +23,11 @@ var changeSlide = function() {
 }
 
 qsa(".gallery .button").forEach(el => el.addEventListener("click", changeSlide));
+
+document.querySelector(".show-caption").addEventListener("change", function(e) {
+  if (this.checked) {
+    gallery.classList.remove("hide-captions");
+  } else {
+    gallery.classList.add("hide-captions");
+  }
+});

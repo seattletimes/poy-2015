@@ -16,12 +16,20 @@
     <section class="text-content">
       <div class="header">
         <h1>2015 <span class="accent">Pictures</span> of the Year</h1>
-        <h2>Real Life, Real Moments</h2>
-        <p class="byline">Pictures by Seattle Times Staff Photographers<br> <a href="#intro">Introduction by Tyrone Beason</a></p>
+        <h2>Real life, real moments</h2>
+        <p class="byline">Pictures by Seattle Times staff photographers<br>
+          <a href="#intro">Introduction by Tyrone Beason</a></p>
       </div>
     </section>
 
     <section class="gallery">
+      <form class="caption-controls" autocomplete="off">
+        <input class="show-caption" type="checkbox" id="show-caption" checked="checked">
+        <label for="show-caption">
+          <div class="slider"></div>
+          Show captions
+        </label>
+      </form>
       <div class="gallery-inner">
         <div class="slide-container">
           <a class="previous button">&laquo;</a>
@@ -68,6 +76,31 @@
         </div>
       </article>
     </section>
+
+    <%= t.include("partials/_dontMiss.html", { data: [
+      {
+        link: "http://www.seattletimes.com/life/travel/2015-seattle-times-reader-photos-of-the-year/",
+        head: "2015 Reader photos of the year",
+        image: "tease-readers.jpg"
+      },
+      {
+        link: "http://www.seattletimes.com/entertainment/books/seattle-times-critics-best-books-of-2015/",
+        head: "Best books of 2015",
+        image: "tease-books.jpg"
+      },
+      {
+        link: "http://www.seattletimes.com/pacific-nw-magazine/the-seattle-times-top-10-new-restaurants/",
+        head: "Top 10 new restaurants",
+        image: "tease-restaurants.jpg"
+      },
+      {
+        link: "http://projects.seattletimes.com/2015/videos-of-the-year/",
+        head: "Videos of the year 2015",
+        image: "tease-videos.jpg"
+      }
+    ]}) %>
+
+    <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>

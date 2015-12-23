@@ -1,21 +1,21 @@
 {
   "s3": {
     "stage": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "infernal-brush"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/photos-of-the-year/"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
+  "title": "2015 Pictures of the year",
+  "description": "Real life, real moments: pictures by Seattle Times staff photographers",
+  "url": "https://projects.seattletimes.com/2015/photos-of-the-year/",
   "slug": "",
   "tags": [],
   "sheets": ["1O8T9wD0L8Ka4umkfYMO5RlCNPonp6FyROQkhmbd64kI"],
-  "image": "assets/social.jpg",
+  "image": "assets/POY_4A.jpg",
   "production": false,
-  "embedded": true
+  "embedded": false
 }

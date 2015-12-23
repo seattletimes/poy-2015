@@ -2,6 +2,11 @@
 
 .gallery {
   position: relative;
+  color: white;
+
+  @media @tablet {
+    color: black;
+  }
 }
 
 .gallery-inner {
@@ -9,12 +14,15 @@
   display: block;
   font-family: @df-sans;
 
-  .js-active & {
-    height: 0;
-    padding-bottom: percentage(9 / 16);
+  @media @desktop {
 
-    @media (max-aspect-ratio: 4 / 3) {
-      padding-bottom: percentage(3 / 4);
+    .js-active & {
+      height: 0;
+      padding-bottom: percentage(9 / 16);
+
+      @media (max-aspect-ratio: 4 / 3) {
+        padding-bottom: percentage(3 / 4);
+      }
     }
   }
 }
@@ -42,12 +50,30 @@
   .flex(0 0 @size);
   .align-self(center);
   top: 10%;
-  background: rgba(255, 255, 255, .8);
+  background: rgba(255, 255, 255, .2);
   color: black;
-  font-size: @size;
+  font-size: 30px;
   line-height: @size;
   text-align: center;
   cursor: pointer;
+  border: 1px solid @df-dark-gray;
+  color: @df-middle-gray;
+  transition: all .3s linear;
+
+  &:hover {
+    background: rgba(255, 255, 255, .3);
+    color: white;
+  }
+
+  &.previous {
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+  }
+
+  &.next {
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+  }
 
   @media @tablet {
     display: none;
@@ -80,6 +106,10 @@
   .photo-container {
     position: relative;
     .flex(0 1 60%);
+
+    .hide-captions & {
+      .flex(1 1 60%);
+    }
   }
 
   img {
@@ -108,8 +138,14 @@
     .flex-direction(column);
     .justify-content(center);
 
+    @media @desktop {
+      .hide-captions & {
+        display: none;
+      }
+    }
+
     @media @tablet {
-      padding: 0 20px;
+      padding: 0px 20px 40px;
       max-width: 100%;
     }
 
@@ -148,6 +184,9 @@ cite.photo-credit {
 
   &.mobile-only {
     display: none;
+    font-size: 18px;
+    color: black;
+    padding: 0 10px;
 
     @media @tablet {
       display: block;
@@ -156,7 +195,7 @@ cite.photo-credit {
 
   .title {
     font-weight: bold;
-    color: @st-dark-red;
+    color: @accent;
     text-transform: uppercase;
   }
 }
