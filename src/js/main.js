@@ -23,3 +23,11 @@ var changeSlide = function() {
 }
 
 qsa(".gallery .button").forEach(el => el.addEventListener("click", changeSlide));
+
+document.querySelector(".show-caption").addEventListener("change", function(e) {
+  if (this.checked) {
+    gallery.classList.remove("hide-captions");
+  } else {
+    gallery.classList.add("hide-captions");
+  }
+});

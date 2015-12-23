@@ -88,3 +88,69 @@ section.text-content {
     border-top: 2px solid @df-dark-gray;
   }
 }
+
+.caption-controls {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  z-index: 999;
+
+  @media @tablet {
+    display: none;
+  }
+
+  input {
+    display: none;
+  }
+
+  label {
+    font-family: @df-sans;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+    border-radius: 4px 0 0;
+    font-size: 13px;
+  }
+
+  .slider {
+    @height: 22px;
+
+    display: inline-block;
+    width: 40px;
+    height: @height;
+    border: 1px solid @df-dark-gray;
+    border-radius: 4px;
+    position: relative;
+    vertical-align: middle;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, .3);
+    background: #333;
+
+    &::before {
+      width: 20px;
+      height: @height - 6px;
+      background: @df-dark-gray;
+      border-radius: 4px;
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      content: "✔";
+      color: @df-dark-gray;
+      transition: all .2s ease-in-out;
+      font-family: @df-sans;
+      line-height: @height - 6px;
+      text-align: center;
+    }
+  }
+
+  input:checked + label {
+    .slider {
+      &::before {
+        transform: translateX(-14px);
+        background: @df-middle-gray;
+        color: @df-light-gray;
+      }
+    }
+  }
+}
