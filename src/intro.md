@@ -10,7 +10,7 @@ Record-setting dry weather in Washington state, for example, renewed fears about
 <p><strong>7 p.m. Wednesday, Jan. 27</strong> (doors open at 6:30) <br>
 <strong>Seattle Public Library<br>
 1000 Fourth Ave., Seattle</strong></p>
-<p>More information, ticket details at LINK</p>
+<p><a href="http://bit.ly/1XWMNmB">Register now.</a></p>
 </div>
 
 Activists in kayaks tried to make a similar connection between global environmental issues and local concerns in May, when they swarmed a massive Shell oil-drilling rig, the Polar Pioneer, which was moored at the Port of Seattle before heading to Arctic waters off Alaska. Shell has wanted to use Puget Sound as a launch base for exploratory ventures, but the idea has drawn loud opposition from locals worried about the risk of oil spills and the long-term effects of new drilling on the climate. Ellen M. Banner’s May 16 image of protesters surrounding the vessel in Elliott Bay illustrates how everyday people can give voice to issues that can seem well beyond any individual’s influence.
