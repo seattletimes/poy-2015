@@ -21,6 +21,8 @@ Sometimes the ripple effects of major news stories manifest in quieter moments, 
 <aside class="factbox">
 <h3 class="accent">Videos of the year 2015</h3>
 <p><a href="http://projects.seattletimes.com/2015/videos-of-the-year/">Watch some of our favorite and most popular Seattle Times video stories.</a></p>
+<h3 class="accent">More photos</h3>
+<p><a href="http://projects.seattletimes.com/2015/videos-of-the-year/">Explore an extended gallery of The Seattle Times' best photos of the year.</a></p>
 </aside>
 
 And then there are those human moments that tap into the zeitgeist, crystallizing notions that are hard to articulate.
